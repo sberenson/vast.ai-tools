@@ -31,6 +31,10 @@ CREATE TABLE `vast`.`machine` (
   `rentals_stored` int DEFAULT NULL,
   `rentals_on_demand` int DEFAULT NULL,
   `rentals_bid` int DEFAULT NULL,
+  `earn_day` float DEFAULT NULL,
+  `earn_hour` float DEFAULT NULL,
+  `hostname` varchar(256) DEFAULT NULL,
+
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
